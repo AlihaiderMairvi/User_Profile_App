@@ -1,16 +1,31 @@
-# developerhub_api_task
+A modern Flutter application that demonstrates HTTP requests, JSON parsing, ListViews, and user profile displays using public APIs. Built with clean architecture and proper error handling.
 
-A new Flutter project.
+✅ Core Requirements Implemented:
+HTTP Requests & JSON Parsing
+Fetches data from JSONPlaceholder API
+Parses JSON responses into Dart objects
+Displays data in a beautiful ListView
 
-## Getting Started
+User Profile Screen:
+Fetches individual user data from API
 
-This project is a starting point for a Flutter application.
+Shows user details including:
+Full name
+Email address
+Profile picture (dynamically generated)
+Phone number
+Website
 
-A few resources to get you started if this is your first Flutter project:
+Error Handling & Loading States
+Loading spinner during API calls
+User-friendly error messages
+Retry functionality for failed requests
+Timeout handling for network issues
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🚀 Tech Stack
+Framework: Flutter 3.x
+Language: Dart
+State Management: StatefulWidget with setState
+Networking: HTTP package
+Image Caching: Cached Network Image
+API: JSONPlaceholder (REST API)
